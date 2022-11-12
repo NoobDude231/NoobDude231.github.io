@@ -1,178 +1,105 @@
 body{
-    padding: 0%;
     margin: 0%;
-    background-color: rgb(246, 246, 246);
-}
-
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a{
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.navigation{
+.headbar, .headbar button, .headbar h1{
+    font-size: 22px;
+    padding-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-style: none;
+    background-color: white;
+}
+.headbar{
     width: 100%;
-    display: inline-block;
-    background-color: gray;
-    background-image: linear-gradient(rgb(101, 101, 101), rgb(175, 175, 175));
+    padding-left: 20px;
+    border-width: 1px;
+    border-color: rgb(233, 233, 233);
+    border-bottom-style: solid;
 }
 
-.navigation div{
-    margin-left: 220px;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.navigation a{
-    color: white;
-    font-size: 13px;
-    padding: 40px;
-}
-
-
-
-
-.main{
-    margin: 20px;
-    min-width: 800px;
-}
-
-.d0{
-    text-align: center;
-    left: 20px;
-    top: 10px;
-    width: 162px;
-    color: rgb(66, 66, 66);
-    border: solid;
-    border-width: 3px;
-    border-radius:6px;
-    position: absolute;
-    display: inline-block;
-    border-color: #4877a8;
-    box-shadow: 1px 1px 15px white;
-    background-color: rgb(255, 255, 255);
-}
 
 .sidebar{
-    float: left;
-    width: 162px;
-    margin-top: 45px;
-    border-style: solid;
+    top: 0px;
+    height: 100%;
+    text-align: left;
+    width: 300px;
+    position: fixed;
+    display: none;
+    border-color: rgb(233, 233, 233);
     border-width: 1px;
-    border-radius: 5px;
-    display: inline-block;
-    border-color: rgb(184, 182, 182);
+    border-right-style: solid;
     background-color: white;
-    text-align: center;
 }
-
-.sidebar div{
-    padding: 5px;
+.sidebar i{
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    display: inline-block;
 }
-
-.sidebar, .d1, .d2, .d3{
-    border-bottom-style: solid;
-    border-bottom-width: 1px;   
-    border-color: rgb(184, 182, 182);
-}
-
 .sidebar a{
+    margin-left: 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: black;
     text-decoration: none;
-    font-size: 13px;
-    color: #4877a8;
-}
-
-
-
-
-
-
-.content{
-    margin: 20px;
-    margin-top: -5px;
+    text-align: right;
     display: inline-block;
 }
-
-
-
-
-
-.smallnavigation{
-    padding: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    border-radius: 10px;
-    background-color: #2b5e98;
-    background-image: linear-gradient(#3e7ac0, #1a3b60);
-}
-
-.smallnavigation a{
-    color: white;
-    font-size: 15px;
-    padding: 40px;
-    text-decoration: none;
-}
-
-
-
-
-
-.maincontent{
-    border-color: rgb(184, 182, 182);
-    border-style: solid;
-    border-radius: 4px;
+.nav{
+    margin-bottom: 20px;
     border-width: 1px;
+    border-color: rgb(233, 233, 233);
+    border-bottom-style: solid;
+}
+.nav a{
+    font-size: 18px;
+}
+.close{
+    text-align: right;
+}
+.close button{
+    margin-right: 20px;
     margin-top: 10px;
+    color: gray;
+    font-size: 40px;
+    border-style: none;
     background-color: white;
-}
-
-.maincontent-border{
-    width: 98%;
-    margin: 1%;
+    text-decoration: none;
     display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 3px;
-    border-color: rgb(184, 182, 182);
-}
-
-.maincontent-title{
-    width: 100%;
-    display: inline-block;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    background-image: linear-gradient(#ffffee, #dfdfd3);
-}
-
-.maincontent-title p{
-    margin: 0%;
-    padding: 7px;
-    font-size: 13px;
-    font-weight: bold;
 }
 
 
-
-
-.file{
-    margin: 1%;
-    width: 98%;
-    display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(184, 182, 182);
+.box{
+    width: 300px;
+    height: 250px;
+    margin: 25px;
     border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
+    box-shadow: 1px 1px 10px rgb(224, 224, 224);
 }
-
-.file p{
-    padding: 5px;
+.box-infor{
+    background-color: #4167b2;
+    height: 38%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box-infor h2{
+    color: white;
+    font-size: 21px;
     margin: 0%;
+    padding: 10px;
+}
+.box-infor p{
+    color: white;
+    font-size: 16px;
+    margin: 0%;
+    padding-left: 10px;
+}
+.DsT p{
+    font-size: 16px;
+    padding: 10px;
 }

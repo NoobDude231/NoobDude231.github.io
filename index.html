@@ -2,43 +2,38 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./css/index.css" type="text/css">
-        <title>My Web</title>
-    </head>
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="https://kit.fontawesome.com/12383479f3.js" crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+        <title>Document</title>
+    </head> 
     <body>
-        <div class="navigation">
-            <div><a>User:</a> <a>Log out</a></div>
+        <div class="headbar">
+            <button onclick="OpenSidebar()">☰</button>
+            <h1>XCloud</h1>
         </div>
 
-        <div class="main">
-            
-            <div class="d0"><h1>Soft</h1></div>
 
-            <div class="sidebar">
-                <div class="d1"><a href="">Drive</a></div>
-                <div class="d2"><a href="">Coming Soon...</a></div>
-                <div class="d3"><a href="">Coming Soon...</a></div>
-                <div><a href="">Coming Soon...</a></div>
+        <div class="sidebar">
+            <div class="close"><button onclick="CloseSidebar()">×</button></div>
+            <div class="nav" style="width: 100%;">
+                <div><i class="fa-solid fa-house"></i><a href="">Home</a></div>
+                <div><i style="font-size: 25px;" class="fa-solid fa-user"></i><a href="">Profil</a></div>
             </div>
+            <div style="width: 100%;"><i class="fa-solid fa-folder"></i><a href="">coming...</a></div>
+        </div>
 
-            <div class="content">
-                <div class="smallnavigation">
-                    <a href="">Home</a>
-                    <a href="">News</a>
-                    <a href="">Profil</a>
+        <div class="main" onclick="CloseSidebar()">
+            <div class="box">
+                <div class="box-infor">
+                    <h2>Name</h2>
+                    <p>Date</p>
                 </div>
-
-                <div class="maincontent">
-                    <div class="maincontent-border">
-                        <div class="maincontent-title">
-                            <p>Title</p>
-                        </div>
-
-                    </div>
+                <div class="DsT">
+                    <p>Describe text</p>
                     
                 </div>
             </div>
         </div>
-
     </body>
 </html>
