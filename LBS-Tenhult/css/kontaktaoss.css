@@ -1,0 +1,29 @@
+.YouCantSeeMe{
+    padding: 50px;
+}
+
+.kontakta-background{
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #f8e9e4;
+    display: inline-block;
+}
+.kontakta-infor{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block;
+}
+iframe{
+    display: inline-block;
+}
+.kontakta-form{
+    width: 30%;
+    margin-top: 100px;
+    min-height: 500px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 6px 6px 5px rgb(190, 190, 190);
+}
