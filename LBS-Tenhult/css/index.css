@@ -25,7 +25,7 @@
 .prg-main{
     margin: 80px;
     display: inline-block;
-    background-color:rgb(250, 238, 215);
+    background-color:#f8f1a0;
 }
 .prg-main>a{
     color: black;
@@ -39,6 +39,7 @@
     margin: 30px;
     margin-bottom: 60px;
     max-width: 350px;
+    border-radius: 6px;
     display: inline-block;
     background-color: white;
     box-shadow: 4px 4px 10px rgb(173, 173, 173);
@@ -58,6 +59,8 @@
     float: right;
     width: 60%;
     height: 300px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     overflow: hidden;
 }
 
@@ -85,7 +88,7 @@
     margin-top: 200px;
     margin-bottom: 200px;
     display: inline-block;
-    background-color: rgb(250, 238, 215);
+    background-color: rgb(255, 227, 175);
 }
 .principal-content{
     width: 34%;

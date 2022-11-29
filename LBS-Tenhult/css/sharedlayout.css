@@ -79,6 +79,10 @@ body{
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0);
 }
+.program-down>button:hover{
+    color: burlywood;
+    text-decoration: underline;
+}
 .program-content{
     display: none;
     min-width: 100px;
@@ -94,6 +98,7 @@ body{
 }
 .program-down:hover .program-content{
     display: block;
+
 }
 .program-content a:hover{
     background-color: antiquewhite;
@@ -132,7 +137,7 @@ body{
     font-weight: bolder;
     padding-top: 40px;
 }
-.media>i{
+.media>a{
     margin-left: 20px;
     margin-right: 20px;
     color: white;
@@ -147,7 +152,7 @@ body{
     border-top-width: 1px;
     border-top-style: solid;
 }
-.bottom>a{
+.powered{
     margin-bottom: 20px;
     color: white;
     font-size: 12px;
