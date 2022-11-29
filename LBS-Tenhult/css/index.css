@@ -5,9 +5,29 @@
 
 
 
-
 .welcome-content{
+    width: 100%;
+    min-height: 500px;
+    background-image: url("../images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-content h1{
+    margin: 0%;
+    padding: 350px;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px rgb(67, 67, 67);
+}
+
+
+
+
+.hey-content{
     width: 40%;
+    margin-top: 200px;
     line-height: 19pt;
     display: inline-block;
 }
@@ -17,54 +37,69 @@
 
 .prg-background{
     width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-top: 200px;
     margin-bottom: 200px;
     display: inline-block;
-    background-image: url("../images/example.png");
+    background-image: url("../images/programbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .prg-main{
-    margin: 80px;
-    padding: 20px;
+    margin: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     display: inline-block;
-    background-color:white;
+    background-color:#373737f5;
 }
 .prg-main>a{
     color: black;
     text-decoration: none;
+    vertical-align: top;
 }
 .prg-main>h1{
-    padding-top: 20px;
-    color: black;
+    padding: 20px;
+    color: white;
 }
 .prg-box{
-    margin: 30px;
-    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
     max-width: 350px;
     border-radius: 6px;
     display: inline-block;
     background-color: white;
-    box-shadow: 1px 1px 40px rgb(135, 135, 135);
 }
 .prg-box:hover{
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-    box-shadow: 1px 1px 20px rgb(135, 135, 135);
+    box-shadow: 1px 1px 15px rgb(95, 95, 95);
+}
+.prg-box-img{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fotofilm{
+    background-image: url("../images/fotofilm.jpg");
+}
+#design{
+    background-image: url("../images/design.jpg");
+}
+#teknik{
+    background-image: url("../images/programmer.jpg");
 }
 .prg-content{
-    width: 40%;
+    width: 95%;
+    margin-top: 100%;
+    background-color: white;
     text-align: center;
     display: inline-block;
     line-height: 19pt;
 }
-.prg-box-img{
-    float: right;
-    width: 60%;
-    height: 300px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    overflow: hidden;
-}
-
 
 
 
@@ -104,6 +139,9 @@
     float: right;
     height: 600px;
     overflow: hidden;
+    background-image: url("../images/principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .kontakt-button{
     float: left;

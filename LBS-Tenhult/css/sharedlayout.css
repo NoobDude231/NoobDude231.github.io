@@ -41,12 +41,12 @@ body{
 
 
 #main{
-    color: burlywood;
+    color: #fea154;
     font-weight: bolder;
     text-decoration: underline;
 }
 #mains-icon{
-    color: burlywood;
+    color: #fea154;
     font-weight: bolder;
 }
 .main{
@@ -80,7 +80,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
 }
 .program-down>button:hover{
-    color: burlywood;
+    color: #fea154;
     text-decoration: underline;
 }
 .program-content{
@@ -105,7 +105,7 @@ body{
     transition-timing-function: ease-out;
 }
 .navbar>a:hover{
-    color:burlywood;
+    color:#fea154;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
