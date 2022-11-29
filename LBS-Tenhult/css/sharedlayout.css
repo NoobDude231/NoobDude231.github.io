@@ -98,7 +98,6 @@ body{
 }
 .program-down:hover .program-content{
     display: block;
-
 }
 .program-content a:hover{
     background-color: antiquewhite;
