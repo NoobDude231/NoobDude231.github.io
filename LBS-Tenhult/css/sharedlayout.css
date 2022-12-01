@@ -12,7 +12,7 @@ body{
     width: 100%;
     min-height: 78px;
     position: fixed;
-    background-image: linear-gradient(rgb(50, 50, 50), rgba(77, 77, 77, 0));
+    background-image: linear-gradient(rgb(47, 47, 47), rgba(77, 77, 77, 0));
 }
 .logo{
     top: 12px;
@@ -41,12 +41,11 @@ body{
 
 
 #main{
-    color: #fea154;
+    font-size: 19px;
     font-weight: bolder;
     text-decoration: underline;
 }
 #mains-icon{
-    color: #fea154;
     font-weight: bolder;
 }
 .main{
@@ -80,7 +79,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
 }
 .program-down>button:hover{
-    color: #fea154;
+    color: white;
     text-decoration: underline;
 }
 .program-content{
@@ -105,7 +104,7 @@ body{
     transition-timing-function: ease-out;
 }
 .navbar>a:hover{
-    color:#fea154;
+    text-shadow: 1px 1px 15px white;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }

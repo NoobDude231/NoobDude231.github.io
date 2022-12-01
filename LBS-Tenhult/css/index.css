@@ -93,12 +93,26 @@
     background-image: url("../images/programmer.jpg");
 }
 .prg-content{
-    width: 95%;
-    margin-top: 100%;
-    background-color: white;
+    width: 330px;
+    margin: 10px;
+    margin-top: 410px;
+    background-color: rgb(225, 225, 225);
     text-align: center;
     display: inline-block;
     line-height: 19pt;
+}
+.prg-content>p{
+    display: none;
+}
+.prg-main>a:hover .prg-content>p{
+    display: inline-block;
+}
+.prg-main>a:hover .prg-content{
+    margin-top: 340px;
+    transition: 0.3s;
+    background-color: white;
+    box-shadow: 1px 1px 10px white;
+    transition-timing-function: ease-in-out;
 }
 
 
