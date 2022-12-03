@@ -7,6 +7,47 @@ body{
 
 
 
+.welcome-content{
+    width: 100%;
+    min-height: 500px;
+}
+.welcome-content-main, .welcome-content-fotofilm, .welcome-content-design, .welcome-content-teknik{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome-content-main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/welcome.jpg");
+}
+.welcome-content-fotofilm{
+    background-image: url("../images/fotofilm.jpg");
+}
+.welcome-content-design{
+    background-image: url("../images/design.jpg");
+}
+.welcome-content-teknik{
+    background-image: url("../images/programmer.jpg");
+}
+
+
+.welcome-content .h1-box{
+    margin: 0%;
+    padding: 350px;
+}
+.h1-box>h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: #373737f5;
+    box-shadow: -20px 25px 1px rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(67, 67, 67);
+}
+
+
+
 
 .navigation{
     width: 100%;
@@ -38,6 +79,12 @@ body{
     text-decoration: none;
     display: inline-block;
 }
+.navbar>a:hover{
+    text-shadow: 1px 1px 15px white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
 
 
 #main{
@@ -103,12 +150,11 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
-.navbar>a:hover{
+.program-down:hover button{
     text-shadow: 1px 1px 15px white;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
-
 
 
 

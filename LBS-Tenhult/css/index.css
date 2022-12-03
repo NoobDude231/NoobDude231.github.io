@@ -5,26 +5,6 @@
 
 
 
-.welcome-content{
-    width: 100%;
-    min-height: 500px;
-    background-image: url("../images/welcome.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.welcome-content h1{
-    margin: 0%;
-    padding: 350px;
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px rgb(67, 67, 67);
-}
-
-
-
-
 .hey-content{
     width: 40%;
     margin-top: 200px;
@@ -96,7 +76,7 @@
     width: 330px;
     margin: 10px;
     margin-top: 410px;
-    background-color: rgb(225, 225, 225);
+    background-color: white;
     text-align: center;
     display: inline-block;
     line-height: 19pt;
@@ -138,7 +118,8 @@
     margin-top: 200px;
     margin-bottom: 200px;
     display: inline-block;
-    background-color: rgb(255, 227, 175);
+    box-shadow: 1px 1px 20px gray;
+    background-color: rgb(255, 232, 189);
 }
 .principal-content{
     width: 34%;
